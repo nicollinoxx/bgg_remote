@@ -7,7 +7,11 @@ class TestBggRemote < Minitest::Test
     refute_nil ::BggRemote::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_should_configure_api
+    BggRemote.configure do |config|
+      config.token = "test-token"
+    end
+
+    assert_instance_of BggRemote::Api, BggRemote.api
   end
 end
