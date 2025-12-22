@@ -6,9 +6,9 @@ require "active_support/core_ext/hash/keys"
 class BggRemote::Api
   attr_accessor :convert_to_hash
 
-  def initialize(client, convert_to_hash: true)
+  def initialize(client, convert_to_hash: nil)
     @client          = client
-    @convert_to_hash = convert_to_hash
+    @convert_to_hash = convert_to_hash.nil? || convert_to_hash
   end
 
   def thing(id:, **params)
@@ -74,5 +74,7 @@ class BggRemote::Api
     Hash.from_xml(xml).deep_symbolize_keys
   end
 
-  alias convert_to_hash? convert_to_hash
+  def convert_to_hash?
+    !!convert_to_hash
+  end
 end
