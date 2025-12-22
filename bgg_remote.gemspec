@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Nícolas Amaral"]
   spec.email = ["nicolasalmeida321@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "Ruby client for the BoardGameGeek XML API2."
+  spec.description = "A simple Ruby interface to the BoardGameGeek XML API2, providing easy access to board game data with XML parsing to Ruby hashes."
   spec.homepage = "TODO: Put your gem's website or public repo URL here."
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
@@ -33,7 +33,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency 'httparty', '0.23.2'
+
+  # Development dependencies
+  spec.add_development_dependency 'rake',     '13.3.1'
+  spec.add_development_dependency 'minitest', '6.0.0'
+  spec.add_development_dependency 'webmock',  '3.26'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

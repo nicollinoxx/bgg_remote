@@ -5,7 +5,9 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in bgg_remote.gemspec
 gemspec
 
-gem "irb"
-gem "rake", "~> 13.0"
-
-gem "minitest", "~> 5.16"
+group :development, :test do
+  gem "rake",     "13.3.1"
+  gem "minitest", "6.0.0"
+  gem "webmock",  "3.26"
+  gem "httparty", "0.23.2"
+end
