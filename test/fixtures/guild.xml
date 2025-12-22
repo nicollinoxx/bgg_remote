@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<guild id="5000" name="Mock Guild" created="Sun, 01 Jan 2015 09:00:00 +0000" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <category>hobby</category>
+  <website></website>
+  <manager>MockManager</manager>
+  <description>This guild is set aside for the developer community building apps or tools for boardgames. General discussions and coding questions are welcome here.</description>
+  <location>
+  	<addr1></addr1>
+  	<addr2></addr2>
+  	<city></city>
+  	<stateorprovince></stateorprovince>
+  	<postalcode></postalcode>
+  	<country></country>
+  </location>
+  <members count="25" page="1">
+    <member name="UserAlpha" date="Thu, 01 Jan 2015 10:00:00 +0000" />
+    <member name="BoardGameFan1" date="Sat, 15 Feb 2016 12:30:00 +0000" />
+    <member name="MockPlayer3" date="Wed, 20 Mar 2019 15:45:00 +0000" />
+    <member name="GamerX" date="Thu, 10 Apr 2017 08:20:00 +0000" />
+    <member name="DevMaster" date="Mon, 01 Feb 2012 14:10:00 +0000" />
+    <member name="IceCoder" date="Tue, 05 May 2016 16:15:00 +0000" />
+    <member name="DualAck" date="Thu, 10 May 2018 11:30:00 +0000" />
+    <member name="CoreyJMock" date="Fri, 17 Apr 2015 09:00:00 +0000" />
+    <member name="AdamBoard" date="Sun, 22 Jan 2012 12:20:00 +0000" />
+    <member name="SourceAdequate" date="Sun, 06 Oct 2024 13:45:00 +0000" />
+    <member name="DiamantUser" date="Fri, 19 Oct 2012 15:50:00 +0000" />
+    <member name="EtherMock" date="Fri, 27 Jan 2017 18:00:00 +0000" />
+    <member name="AgentMock" date="Mon, 24 Sep 2012 19:10:00 +0000" />
+    <member name="AIUser123" date="Wed, 12 Apr 2017 17:40:00 +0000" />
+    <member name="AidenMock" date="Thu, 28 Dec 2017 22:30:00 +0000" />
+    <member name="BoardGamesAir" date="Wed, 25 Sep 2019 16:20:00 +0000" />
+    <member name="SophiaMock" date="Wed, 26 Sep 2018 18:00:00 +0000" />
+    <member name="DiskMock" date="Wed, 31 May 2017 20:00:00 +0000" />
+    <member name="IsaksenMock" date="Mon, 03 Feb 2014 14:00:00 +0000" />
+    <member name="AjlaMock" date="Fri, 16 Sep 2022 20:00:00 +0000" />
+    <member name="AlandorMock" date="Thu, 10 Jan 2019 09:30:00 +0000" />
+    <member name="AlbieMock" date="Fri, 09 Oct 2020 09:10:00 +0000" />
+    <member name="AlchemicalMock" date="Wed, 05 Nov 2025 22:30:00 +0000" />
+    <member name="AldaronMock" date="Thu, 10 Jan 2019 20:40:00 +0000" />
+    <member name="AldieMock" date="Tue, 22 Oct 2013 06:25:00 +0000" />
+  </members>
+</guild>

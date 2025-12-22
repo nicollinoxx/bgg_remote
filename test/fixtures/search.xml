@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items total="3">
+  <item type="boardgame" id="101">
+    <name type="primary" value="MockGame Alpha"/>
+    <yearpublished value="2000"/>
+  </item>
+
+  <item type="boardgame" id="102">
+    <name type="primary" value="MockGame Beta"/>
+    <yearpublished value="2001"/>
+  </item>
+
+  <item type="boardgameexpansion" id="103">
+    <name type="primary" value="MockGame Alpha: Expansion"/>
+    <yearpublished value="2002"/>
+  </item>
+</items>

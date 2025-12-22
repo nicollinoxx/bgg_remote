@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<user id="5001" name="mockuser1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <firstname value="Mock" />
+  <lastname value="User" />
+  <avatarlink value="N/A" />
+  <yearregistered value="2020" />
+  <lastlogin value="2025-12-20" />
+  <stateorprovince value="" />
+  <country value="" />
+  <traderating value="5" />
+</user>

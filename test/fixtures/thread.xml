@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thread id="101" numarticles="1" link="https://boardgamegeek.com/thread/101" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <subject>Mock Game Review</subject>
+  <articles>
+    <article id="201" username="mockuser" link="https://boardgamegeek.com/thread/101/article/201#201"
+      postdate="2025-01-01T12:00:00-05:00"
+      editdate="2025-01-01T12:00:00-05:00"
+      numedits="0">
+      <subject>Mock Game Review</subject>
+      <body>
+        This is a mock review for testing purposes. The game mechanics are abstract and strategic.
+        Players move pieces around the board, collecting resources and building structures.
+        The game can be competitive and offers multiple paths to victory.
+        Ideal for 2-4 players and perfect for testing XML parsing functionality.
+      </body>
+    </article>
+  </articles>
+</thread>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <item type="boardgamefamily" id="500">
+
+    <thumbnail>https://cf.geekdo-images.com/mock_thumbnail_small.jpg</thumbnail>
+
+    <image>https://cf.geekdo-images.com/mock_image_original.jpg</image>
+
+    <name type="primary" sortindex="1" value="Game: Galaxy Quest" />
+
+    <description>This is the family of Galaxy Quest Games.</description>
+
+    <link type="boardgamefamily" id="6001" value="Galaxy Quest: Origins" inbound="true"/>
+    <link type="boardgamefamily" id="6002" value="Galaxy Quest: Admiral Challenge" inbound="true"/>
+    <link type="boardgamefamily" id="6003" value="Imperial Galaxy Quest" inbound="true"/>
+    <link type="boardgamefamily" id="6004" value="Solar Galaxy Quest" inbound="true"/>
+    <link type="boardgamefamily" id="6005" value="Galaxy Quest Classic" inbound="true"/>
+    <link type="boardgamefamily" id="6006" value="Galaxy Quest Remastered" inbound="true"/>
+    <link type="boardgamefamily" id="6007" value="Galaxy Quest (2nd Edition)" inbound="true"/>
+    <link type="boardgamefamily" id="6008" value="Galaxy Quest (3rd Edition)" inbound="true"/>
+    <link type="boardgamefamily" id="6009" value="Galaxy Quest (3rd Edition): Admiral Challenge" inbound="true"/>
+    <link type="boardgamefamily" id="6010" value="Galaxy Quest II" inbound="true"/>
+    <link type="boardgamefamily" id="6011" value="Galaxy Quest III: Empires" inbound="true"/>
+    <link type="boardgamefamily" id="6012" value="Galaxy Quest Quick Start Rules" inbound="true"/>
+    <link type="boardgamefamily" id="6013" value="Galaxy Quest: 2nd Edition – PDF Rules" inbound="true"/>
+  </item>
+</items>

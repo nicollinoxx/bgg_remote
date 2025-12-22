@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forum id="100" title="Boardgame Discussions">
+  <threads>
+    <thread
+      id="500001"
+      subject="Mystic Card Strategy Deluxe"
+      author="user123"
+      numarticles="2"
+      postdate="Sat, 06 Dec 2025 23:53:46 +0000"
+      lastpostdate="Sun, 14 Dec 2025 18:40:20 +0000"
+    />
+
+    <thread
+      id="500002"
+      subject="Looking for info on this boardgame"
+      author="player456"
+      numarticles="4"
+      postdate="Sat, 13 Jun 2015 00:03:39 +0000"
+      lastpostdate="Mon, 24 Nov 2025 16:24:38 +0000"
+    />
+  </threads>
+</forum>

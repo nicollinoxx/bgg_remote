@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item type="boardgame" id="200">
+    <thumbnail>https://example.com/mock_thumb.jpg</thumbnail>
+    <image>https://example.com/mock_image.jpg</image>
+
+    <name type="primary" value="Time Warp"/>
+    <name type="alternate" value="Temporal Shift"/>
+
+    <description>
+      Abstract strategy game with time manipulation mechanics.
+    </description>
+
+    <yearpublished value="2025"/>
+    <minplayers value="2"/>
+    <maxplayers value="4"/>
+
+    <link type="boardgamecategory" id="1100" value="Abstract Strategy"/>
+    <link type="boardgamemechanic" id="2700" value="Tile Placement"/>
+    <link type="boardgamedesigner" id="350" value="Jane Doe"/>
+  </item>
+</items>

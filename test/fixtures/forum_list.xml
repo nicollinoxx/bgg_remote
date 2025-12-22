@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forums type="thing" id="174430" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+	<forum id="1001" groupid="0" title="Reviews" noposting="0" description="Post your game reviews in this forum. &lt;A href=&quot;/thread/10001&quot;&gt;Click here for help on writing game reviews.&lt;/A&gt;" numthreads="50" numposts="1200" lastpostdate="Mon, 01 Sep 2025 07:06:06 +0000" />
+	<forum id="1002" groupid="0" title="Sessions" noposting="0" description="Post your session reports here." numthreads="75" numposts="450" lastpostdate="Sat, 04 Jan 2025 17:47:19 +0000" />
+	<forum id="1003" groupid="0" title="General" noposting="0" description="Post any related article to this game here." numthreads="200" numposts="5000" lastpostdate="Fri, 19 Dec 2025 15:40:21 +0000" />
+	<forum id="1004" groupid="0" title="Rules" noposting="0" description="Post any rules questions you have here." numthreads="180" numposts="2200" lastpostdate="Mon, 15 Dec 2025 12:26:26 +0000" />
+	<forum id="1005" groupid="0" title="Strategy" noposting="0" description="Post strategy and tactics articles here." numthreads="90" numposts="1500" lastpostdate="Fri, 31 Oct 2025 01:07:53 +0000" />
+	<forum id="1006" groupid="0" title="Variants" noposting="0" description="Post variants to the game rules here." numthreads="60" numposts="900" lastpostdate="Wed, 26 Nov 2025 07:24:40 +0000" />
+	<forum id="1007" groupid="0" title="News" noposting="0" description="Post time sensitive announcements here." numthreads="15" numposts="300" lastpostdate="Tue, 24 Jun 2025 14:41:17 +0000" />
+	<forum id="1008" groupid="0" title="Crowdfunding" noposting="0" description="Post crowdfunding / preorder content here." numthreads="10" numposts="200" lastpostdate="Thu, 27 Nov 2025 16:54:49 +0000" />
+	<forum id="1009" groupid="0" title="Play By Forum" noposting="0" description="Run Play By Forum (PBF) games here." numthreads="25" numposts="1300" lastpostdate="Thu, 31 Jul 2025 13:32:50 +0000" />
+	<forum id="1010" groupid="0" title="Find Players" noposting="0" description="Post here to find local gamers and to promote local events." numthreads="20" numposts="150" lastpostdate="Tue, 04 Nov 2025 14:33:51 +0000" />
+</forums>

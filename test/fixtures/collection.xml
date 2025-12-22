@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<items totalitems="3" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse" pubdate="Sun, 21 Dec 2025 22:05:58 +0000">
+  <item objecttype="thing" objectid="101" subtype="boardgame" collid="2001">
+    <name sortindex="1">Lords of Mock</name>
+    <status own="1" wishlist="0" lastmodified="2025-11-01 09:00:00" />
+  </item>
+
+  <item objecttype="thing" objectid="202" subtype="boardgame" collid="2002">
+    <name sortindex="1">Space Explorers</name>
+    <status own="0" wishlist="1" lastmodified="2025-11-02 10:30:00" />
+  </item>
+
+  <item objecttype="thing" objectid="303" subtype="boardgame" collid="2003">
+    <name sortindex="1">Empire Builders</name>
+    <status own="1" wishlist="0" lastmodified="2025-11-03 11:45:00" />
+  </item>
+</items>
