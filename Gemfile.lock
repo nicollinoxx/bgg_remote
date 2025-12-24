@@ -40,7 +40,6 @@ PLATFORMS
 
 DEPENDENCIES
   bgg_remote!
-  crack (= 1.0.1)
   minitest (= 6.0.0)
   rake (= 13.3.1)
   webmock (= 3.26)
