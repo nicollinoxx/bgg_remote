@@ -7,7 +7,6 @@ module BggRemote
     class BadRequest          < Error; end
     class Forbidden           < Error; end
     class UnprocessableEntity < Error; end
-    class XmlParseError       < Error; end
     class MissingToken        < Error; end
   end
 end

@@ -17,7 +17,7 @@ class BggRemote::Client
     422 => BggRemote::Error::UnprocessableEntity
   }.freeze
 
-  def initialize(token, timeout: nil)
+  def initialize(token, timeout: 10)
     @token   = token
     @timeout = timeout || 10
 

@@ -6,7 +6,7 @@ require "active_support/core_ext/hash/keys"
 class BggRemote::Api
   attr_accessor :convert_to_hash
 
-  def initialize(client, convert_to_hash: nil)
+  def initialize(client, convert_to_hash: true)
     @client          = client
     @convert_to_hash = convert_to_hash
   end
