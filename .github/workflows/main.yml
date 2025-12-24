@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Ruby 3.3.5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
 
@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Run Ruby tests
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
 
