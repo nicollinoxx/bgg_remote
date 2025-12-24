@@ -34,6 +34,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency 'httparty', '0.23.2'
+  spec.add_dependency 'crack',    '1.0.1'
 
   # Development dependencies
   spec.add_development_dependency 'rake',     '13.3.1'

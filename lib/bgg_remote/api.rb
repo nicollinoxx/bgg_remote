@@ -1,7 +1,4 @@
-# frozen_string_literal: true
-require "active_support"
-require "active_support/core_ext/hash/conversions"
-require "active_support/core_ext/hash/keys"
+require 'crack/xml'
 
 class BggRemote::Api
   attr_accessor :convert_to_hash
@@ -44,7 +41,7 @@ class BggRemote::Api
   end
 
   def plays(username: nil, id: nil, type: nil, **params)
-    validate_required_one_of!(username: username, id: id)
+    validate_at_least_one_of!(username: username, id: id)
 
     request("plays", username: username, id: id, type: type, **params)
   end
@@ -64,14 +61,14 @@ class BggRemote::Api
     convert_to_hash? ? parse_xml(xml) : xml
   end
 
-  def validate_required_one_of!(**values)
-    return if values.any? { |_, value| value.present? }
+  def validate_at_least_one_of!(**values)
+    return if values.any? { |_, value| !!value }
 
     raise ArgumentError, "You must provide at least one of: #{values.keys.join(', ')}"
   end
 
   def parse_xml(xml)
-    Hash.from_xml(xml).deep_symbolize_keys
+    Crack::XML.parse(xml)
   end
 
   def convert_to_hash?
