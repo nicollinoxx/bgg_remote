@@ -1,5 +1,4 @@
 require "httparty"
-require_relative "errors"
 
 class BggRemote::Client
   include HTTParty
@@ -9,15 +8,20 @@ class BggRemote::Client
   format :xml
 
   STATUS_CODES = {
-    401 => BggRemote::Errors::Unauthorized,
-    404 => BggRemote::Errors::NotFound,
-    429 => BggRemote::Errors::RateLimited,
-    500 => BggRemote::Errors::ServerError
+    401 => BggRemote::Error::Unauthorized,
+    404 => BggRemote::Error::NotFound,
+    429 => BggRemote::Error::RateLimited,
+    500 => BggRemote::Error::ServerError,
+    400 => BggRemote::Error::BadRequest,
+    403 => BggRemote::Error::Forbidden,
+    422 => BggRemote::Error::UnprocessableEntity
   }.freeze
 
-  def initialize(token: nil, timeout: 10)
+  def initialize(token, timeout: nil)
     @token   = token
-    @timeout = timeout
+    @timeout = timeout || 10
+
+    raise BggRemote::Error::MissingToken, "token is required" if token.nil?
   end
 
   def perform_request(path, **params)
@@ -35,7 +39,7 @@ class BggRemote::Client
   end
 
   def raise_error_for(response)
-    error_class = STATUS_CODES.fetch(response.code, BggRemote::Error)
+    error_class = STATUS_CODES.fetch(response.code)
     raise error_class, "HTTP failed with code: #{response.code}, message #{response.message}"
   end
 end

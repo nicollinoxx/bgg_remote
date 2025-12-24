@@ -5,7 +5,7 @@ class TestBggRemoteClient < Minitest::Test
   include BggStubHelper
 
   def setup
-    @client = BggRemote::Client.new(token: "fake-token")
+    @client = BggRemote::Client.new("fake-token")
   end
 
   def test_should_initialize_with_token

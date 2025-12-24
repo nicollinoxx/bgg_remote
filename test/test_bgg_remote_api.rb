@@ -139,7 +139,7 @@ class TestBggRemoteApi < Minitest::Test
   private
 
   def set_bgg_api
-    client = BggRemote::Client.new(token: "fake-token")
+    client = BggRemote::Client.new("fake-token")
     @api = BggRemote::Api.new(client)
   end
 end
