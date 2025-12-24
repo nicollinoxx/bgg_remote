@@ -8,7 +8,7 @@ class BggRemote::Api
 
   def initialize(client, convert_to_hash: nil)
     @client          = client
-    @convert_to_hash = convert_to_hash.nil? || convert_to_hash
+    @convert_to_hash = convert_to_hash
   end
 
   def thing(id:, **params)
@@ -75,6 +75,6 @@ class BggRemote::Api
   end
 
   def convert_to_hash?
-    !!convert_to_hash
+    convert_to_hash != false
   end
 end
