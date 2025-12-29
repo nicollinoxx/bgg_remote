@@ -7,6 +7,6 @@ gemspec
 
 group :development, :test do
   gem "rake",     "13.3.1"
-  gem "minitest", "6.0.0"
+  gem "minitest", "6.0.1"
   gem "webmock",  "3.26"
 end
