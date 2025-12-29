@@ -40,10 +40,10 @@ class BggRemote::Api
     request("search", query: query, **params)
   end
 
-  def plays(username: nil, id: nil, type: nil, **params)
+  def plays(username: nil, id: nil, **params)
     validate_at_least_one_of!(username: username, id: id)
 
-    request("plays", username: username, id: id, type: type, **params)
+    request("plays", username: username, id: id, **params)
   end
 
   def hot_items(type:)

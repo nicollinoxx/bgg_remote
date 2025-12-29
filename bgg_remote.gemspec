@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email   = ["nicolasalmeida321@gmail.com"]
 
   spec.summary               = "Ruby client for the BoardGameGeek XML API2."
-  spec.description           = "A simple Ruby interface to the BoardGameGeek XML API2, providing easy access to board game data with XML parsing to Ruby hashes."
+  spec.description           = "A simple Ruby client to the BoardGameGeek XML API2, providing easy access to board game data with XML parsing to Ruby hashes."
   spec.homepage              = "https://github.com/nicollinoxx/bgg_remote"
   spec.license               = "MIT"
   spec.required_ruby_version = ">= 3.2.0"

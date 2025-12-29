@@ -18,10 +18,10 @@ class BggRemote::Client
   }.freeze
 
   def initialize(token, timeout: 10)
-    @token   = token
-    @timeout = timeout || 10
-
     raise BggRemote::Error::MissingToken, "token is required" if token.nil?
+
+    @token   = token
+    @timeout = timeout
   end
 
   def perform_request(path, **params)
@@ -34,7 +34,6 @@ class BggRemote::Client
   private
 
   def headers
-    return { "Accept" => "application/xml" } unless token
     { "Accept" => "application/xml", "Authorization" => "Bearer #{token}" }
   end
 
