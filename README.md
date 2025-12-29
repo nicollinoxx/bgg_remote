@@ -51,7 +51,7 @@ bgg_api.thing(id: 222)
 - user(name:, **params)
 - guild(id:, **params)
 - search(query:, **params)
-- plays(username: nil, id: nil, type: nil, **params) – validates at least one of username or id
+- plays(username: nil, id: nil, **params) – validates at least one of username or id
 - hot_items(type:)
 - collection(username:, **params)
 
