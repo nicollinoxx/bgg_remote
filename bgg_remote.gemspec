@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
 
   # Development dependencies
   spec.add_development_dependency 'rake',     '13.3.1'
-  spec.add_development_dependency 'minitest', '6.0.0'
+  spec.add_development_dependency 'minitest', '6.0.1'
   spec.add_development_dependency 'webmock',  '3.26'
 
   # For more information and examples about making a new gem, check out our
